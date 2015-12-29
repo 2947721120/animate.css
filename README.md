@@ -132,7 +132,7 @@ $('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimat
 
 **Note:** `jQuery.one()` is used when you want to execute the event handler at most *once*. More information [here](http://api.jquery.com/one/).
 
-You can change the duration of your animations, add a delay or change the number of times that it plays:
+你可以改变你的动画的时间，增加一个延迟或改变它所扮演的次数：
 
 ```css
 #yourElement {
