@@ -1,20 +1,22 @@
 #Animate.css
 *Just-add-water CSS animation*
 
-`animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
+`animate.css` 是一个很酷，有趣，和跨浏览器动画为您使用在您的项目。伟大的强调，主页，滑块，一般只需加水魅力。
 
-##Basic Usage
-1. Include the stylesheet on your document's `<head>`
+##基本用法
+1. 包括在您的文档中的样式表 `<head>`
 
   ```html
   <head>
     <link rel="stylesheet" href="animate.min.css">
   </head>
   ```
-2. Add the class `animated` to the element you want to animate.
- You may also want to include the class `infinite` for an infinite loop.
+2. 添加类“动画”的元素，你想动画。
 
-3. Finally you need to add one of the following classes:
+您还可以将类的。添加class `animated` 你想持续动画。
+ 您还可以将class的 `infinite` 包含为一个无限循环.
+
+3. 最后，您需要添加下列class之一：
 
   * `bounce`
   * `flash`
@@ -92,15 +94,15 @@
   * `slideOutRight`
   * `slideOutUp`
 
-Full example:
+全例子：
 ```html
-<h1 class="animated infinite bounce">Example</h1>
+<h1 class="animated infinite bounce">例</h1>
 ```
 
 [Check out all the animations here!](https://daneden.github.io/animate.css/)
 
-##Usage
-To use animate.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!
+##使用
+在你的网站上使用animate.css，只需拖放到您的文档中的样式表 `<head>`, 并添加class `animated` 到一个元素，以及任何动画名称。这是它！你已经有了一个CSS动画元素。好极了 !
 
 ```html
 <head>
@@ -108,13 +110,13 @@ To use animate.css in your website, simply drop the stylesheet into your documen
 </head>
 ```
 
-You can do a whole bunch of other stuff with animate.css when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:
+你可以做很多其他的东西animate.css当你结合jQuery或添加您自己的CSS规则。动态添加使用jQuery轻松动画：
 
 ```javascript
 $('#yourElement').addClass('animated bounceOutLeft');
 ```
 
-You can also detect when an animation ends:
+当动画结束时，也可以检测到：
 
 <!--
 Before you make changes to this file, you should know that $('#yourElement').one() is *NOT A TYPO*
