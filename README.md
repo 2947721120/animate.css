@@ -144,8 +144,8 @@ You can change the duration of your animations, add a delay or change the number
 
 *Note: be sure to replace "vendor" in the CSS with the applicable vendor prefixes (webkit, moz, etc)*
 
-## Custom Builds
-Animate.css is powered by [Grunt](http://gruntjs.com), and you can create custom builds pretty easily. First of all, you’ll need Grunt and all other dependencies:
+## 自定义生成
+Animate.css由 [Grunt](http://gruntjs.com), 您可以创建自定义很容易地构建。首先，你需要步兵和其他所有依赖关系：
 
 ```sh
 $ cd path/to/animate.css/
