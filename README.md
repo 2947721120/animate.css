@@ -130,7 +130,7 @@ $('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimat
 
 [View a video tutorial](https://www.youtube.com/watch?v=CBQGl6zokMs) 关于如何使用Animate.css使用jQuery在这里。 
 
-**Note:** `jQuery.one()` is used when you want to execute the event handler at most *once*. More information [here](http://api.jquery.com/one/).
+**Note:** `jQuery.one()` 当你想在大多数情况下执行该事件处理程序时 *once*. 更多信息 [here](http://api.jquery.com/one/).
 
 你可以改变你的动画的时间，增加一个延迟或改变它所扮演的次数：
 
