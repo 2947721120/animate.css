@@ -99,7 +99,7 @@
 <h1 class="animated infinite bounce">例</h1>
 ```
 
-[Check out all the animations here!](https://daneden.github.io/animate.css/)
+[检查所有的动画在这里！](https://daneden.github.io/animate.css/)
 
 ##使用
 在你的网站上使用animate.css，只需拖放到您的文档中的样式表 `<head>`, 并添加class `animated` 到一个元素，以及任何动画名称。这是它！你已经有了一个CSS动画元素。好极了 !
