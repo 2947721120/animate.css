@@ -128,7 +128,7 @@ http://api.jquery.com/one/
 $('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
 ```
 
-[View a video tutorial](https://www.youtube.com/watch?v=CBQGl6zokMs) on how to use Animate.css with jQuery here. 
+[View a video tutorial](https://www.youtube.com/watch?v=CBQGl6zokMs) 关于如何使用Animate.css使用jQuery在这里。 
 
 **Note:** `jQuery.one()` is used when you want to execute the event handler at most *once*. More information [here](http://api.jquery.com/one/).
 
