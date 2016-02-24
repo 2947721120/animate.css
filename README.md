@@ -109,7 +109,13 @@
   <link rel="stylesheet" href="animate.min.css">
 </head>
 ```
-
+##CDN快速使用
+在你的网站上HTML页面里头部文件包含以下一行代码.即可使用!
+```html
+<head>
+  <link rel="stylesheet" href="https://cdn.c2cmalls.com/animatecss/3.5.1/animate.min.css">
+</head>
+```
 你可以做很多其他的东西animate.css当你结合jQuery或添加您自己的CSS规则。动态添加使用jQuery轻松动画：
 
 ```javascript
