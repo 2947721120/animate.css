@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_cn">
 <head>
   <title>Animate.css</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, minimal-ui" />
-
-  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+ <link rel="dns-prefetch" href="//font.c2cmalls.com" />
   <link rel="dns-prefetch" href="//code.jquery.com" />
-
-  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
-
+  <link href='//font.c2cmalls.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="animate.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -17,14 +14,18 @@
 <header class="site__header island">
   <div class="wrap">
    <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">Animate.css</h1></span>
-    <span class="beta subhead">Just-add-water CSS animations</span>
+    <span class="beta subhead">CDN使用只需要html里添加以下一行代码到</span>
+	 <p class="lead">
+    如何使用?只需要页面顶部添加一行</p></br>
+    <p><pre id="url2">&lt;link rel="stylesheet" href="https://cdnjs.c2cbc.com/ajax/libs/animate.css/3.5.1/animate.min.css"&gt;</pre> </p>
+	<button class="butt btn js--triggerAnimation" data-clipboard-target="#url2"><i class="fa fa-copy"></i> 复制</button></p>
   </div>
 </header><!-- /.site__header -->
 
 <main class="site__content island" role="content">
   <div class="wrap">
     <form>
-      <select class="input input--dropdown js--animations">
+      <select class="input input--dropdown js--animations" id="js--animations">
         <optgroup label="Attention Seekers">
           <option value="bounce">bounce</option>
           <option value="flash">flash</option>
@@ -144,10 +145,10 @@
         </optgroup>
       </select>
 
-      <button class="butt js--triggerAnimation">Animate it</button>
+      <button class="butt js--triggerAnimation">点我看效果</button>
     </form>
     <hr />
-    <p class="meta"><a href="https://raw.github.com/daneden/animate.css/master/animate.css" download="animate.css">Download Animate.css</a> or <a href="//github.com/daneden/animate.css">View on GitHub</a></p>
+    <p class="meta"><a href="https://raw.github.com/daneden/animate.css/master/animate.css" download="animate.css">下载Animate.css</a> or <a href="//github.com/daneden/animate.css">查看GitHub上</a></p>
     <p><small>Another thing from <a href="//daneden.me">Daniel Eden</a>.</small></p>
   </div>
 </main><!-- /.site__content -->
@@ -159,21 +160,23 @@
       $(this).removeClass();
     });
   };
-
   $(document).ready(function(){
     $('.js--triggerAnimation').click(function(e){
       e.preventDefault();
       var anim = $('.js--animations').val();
       testAnim(anim);
     });
-
     $('.js--animations').change(function(){
       var anim = $(this).val();
       testAnim(anim);
     });
   });
-
 </script>
-
+ <script src="https://cdnjs.c2cbc.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js"></script>
+<script>
+    $(document).ready(function (){
+        new Clipboard('.btn');
+    });
+</script>
 </body>
 </html>
